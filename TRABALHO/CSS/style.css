@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* faz foto e as formas */
+/* caso as cores n forem essas so trocar no root*/
+/* tem que ver as fontes tbm, usei a que apareceu automaticamente */
+/* ajustes para tablets e celulares */
+
+:root {
+  --azul-escuro: #071a3d;
+  --azul: #2864ed;
+  --cinza: #666b75;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--azul-escuro);
+  background: #fff;
+}
+
+.cabecalho {
+  min-height: 108px;
+  padding: 22px 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.035);
+}
+
+.marca {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: var(--azul-escuro);
+  text-decoration: none;
+}
+
+.marca strong {
+  font-size: 29px;
+  letter-spacing: -1px;
+}
+
+.marca span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #626773;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.menu a {
+  color: #555a65;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.menu a:hover {
+  color: var(--azul);
+}
+
+.hero {
+  max-width: 1500px;
+  min-height: 790px;
+  margin: 0 auto;
+  padding: 110px 3% 70px;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: 35px;
+  overflow: hidden;
+}
+
+.conteudo {
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  color: var(--azul-escuro);
+  font-size: clamp(52px, 6vw, 91px);
+  line-height: 1.03;
+  letter-spacing: -5px;
+  font-weight: 800;
+}
+
+h2 span {
+  color: var(--azul);
+}
+
+.descricao {
+  max-width: 680px;
+  margin-top: 36px;
+  color: var(--cinza);
+  font-size: 23px;
+  line-height: 1.65;
+}
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
+  padding: 19px 31px;
+  color: #fff;
+  background: var(--azul);
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  box-shadow: 0 5px 14px rgba(40, 100, 237, 0.18);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.botao:hover {
+  background: #174fd0;
+  transform: translateY(-2px);
+}
+
+.botao span {
+  font-size: 23px;
+  line-height: 15px;
+}
+
+.estatisticas {
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  margin-top: 82px;
+}
+
+.estatistica {
+  min-width: 155px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.estatistica + .estatistica {
+  border-left: 2px solid #edf0f7;
+  padding-left: 35px;
+}
+
+.estatistica strong {
+  color: var(--azul-escuro);
+  font-size: 61px;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.estatistica span {
+  color: #5d626d;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
