@@ -172,3 +172,12 @@ h2 span {
   letter-spacing: 0.5px;
   white-space: nowrap;
 }
+
+.foto {
+  position: relative;
+  z-index: 1;
+  width: 96%;
+  height: 88%;
+  object-fit: cover;
+  border-radius: 34% 46% 34% 42% / 35% 37% 43% 42%;
+}
