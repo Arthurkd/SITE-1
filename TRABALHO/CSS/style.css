@@ -9,10 +9,12 @@
   --azul: #2864ed;
   --branco: #ffffff;
   --cinza: #666b75;
+  --cinza-claro: #9aa8c2;
   --azul-acinzentado: #c4ccda;
   --ouro: #d7b94b;
   --border: #d8dce5;
   --background: #f3f4f7;
+  --navy: #031025;
 
 }
 
@@ -744,8 +746,82 @@ body {
 }
 
 .final-line p {
-  color: var(--cinza);
+  color: var(--cinza-claro);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+/* --- */
+
+.footer {
+  background: var(--navy);
+  padding: 76px 3.1% 34px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.45fr 0.85fr 1.2fr;
+  gap: 48px;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.footer h2 {
+  color: var(--branco);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer h3 {
+  color: var(--ouro);
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-bottom: 22px;
+}
+
+.footer-sti p,
+.footer-l p {
+  color: var(--cinza-claro);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links a {
+  color: var(--cinza-claro);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: var(--branco);
+}
+
+.footer-l .certi {
+  color: var(--cinza-claro);
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.footer-final {
+  color: var(--cinza);
+  max-width: 1450px;
+  padding-top: 25px;
+  gap: 24px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  margin: 105px auto 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(150, 170, 200, 0.15);
 }
