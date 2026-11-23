@@ -689,3 +689,63 @@ body {
 }
 
 /* --- */
+
+.final {
+  background: var(--azul-escuro);
+  min-height: 100vh;
+  padding: 100px 24px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.final-tittle {
+  color: var(--ouro);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 34px;
+}
+
+.final h2 {
+  color: var(--branco);
+  font-size: clamp(40px, 7vw, 96px);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.final h2 span {
+  color: var(--azul);
+}
+
+.final-text {
+  color: var(--azul-acinzentado);
+  font-size: clamp(16px, 2vw, 23px);
+  line-height: 1.7;
+  margin-top: 40px;
+}
+
+.final-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 58px;
+}
+
+.final-line span {
+  background: var(--ouro);
+  width: 64px;
+  height: 4px;
+  
+}
+
+.final-line p {
+  color: var(--cinza);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
