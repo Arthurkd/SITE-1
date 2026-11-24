@@ -825,3 +825,174 @@ body {
   justify-content: space-between;
   border-top: 1px solid rgba(150, 170, 200, 0.15);
 }
+
+@media (max-width: 1024px) {
+
+  .cabecalho {
+    flex-wrap: wrap;
+    padding: 20px 3%;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 75px 5% 65px;
+    gap: 24px;
+  }
+
+  .imagem-area{
+    display: none;
+  }
+
+  .h2-1 {
+    font-size: clamp(40px, 10vw, 58px);
+    letter-spacing: -2px;
+  }
+
+  .divbar {
+    min-height: auto;
+    gap: 8px 12px;
+    padding: 17px 5%;
+  }
+
+  .divbar p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .separ {
+    font-size: 16px;
+  }
+
+  .desc {
+    gap: 30px;
+  }
+
+  .text-2 br {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+
+  .cabecalho {
+    gap: 18px;
+    padding: 22px 3%;
+    min-height: auto;
+    flex-direction: column;
+  }
+
+  .marca {
+    align-items: center;
+    text-align: center;
+  }
+
+  .marca strong {
+    font-size: 27px;
+  }
+
+  .marca span {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+  }
+
+  .menu {
+    width: 100%;
+    gap: 12px 18px;
+  }
+
+  .menu a {
+    font-size: 11px;
+  }
+  .descricao {
+    max-width: 100%;
+    margin: 23px auto 0;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .botao {
+    margin-top: 27px;
+    padding: 16px 22px;
+    font-size: 13px;
+  }
+
+  .estatisticas {
+    display: none;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .desc {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .lead {
+    font-size: 18px;
+  }
+
+  .secondary {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 28px 5% 0;
+  }
+
+  .card {
+    min-height: auto;
+    padding: 24px;
+  }
+
+  .cont2 {
+    padding: 34px 24px;
+  }
+
+  .dias {
+    width: 45%;
+  }
+
+  .dia {
+    flex: 1;
+    padding: 13px 8px;
+  }
+
+  .a5 {
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .atividade {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .mobile-local {
+    display: none;
+  }
+
+  .card-2 {
+    display: none;
+  }
+
+  .footer {
+    padding: 52px 6% 25px;
+  }
+
+  .footer-sti p,
+  .footer-l p,
+  .footer h3 {
+    font-size: 12px;
+  }
+
+}
