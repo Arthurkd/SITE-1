@@ -981,9 +981,27 @@ body {
     display: none;
   }
 
-  .card-2 {
+  .foto-2 {
     display: none;
   }
+  
+  .cards-2 {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  
+  .card-content {
+    padding: 22px;
+  }
+
+  .card-2 h2 {
+    font-size: 21px;
+  }
+
+  .palestrante-2,
+  .tema-2 {
+    min-height: auto;
+  } 
 
   .footer {
     padding: 52px 6% 25px;
